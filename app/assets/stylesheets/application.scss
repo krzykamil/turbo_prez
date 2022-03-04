@@ -1,0 +1,102 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+.va {
+  display: flex;
+  align-items: center;
+}
+
+html {
+  font-family: 'Nunito Sans', sans-serif;
+  color: white;
+}
+
+a {
+  color: #3b7adf;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3b7adf;
+}
+
+hr {
+  background: #24272c;
+}
+
+.hero {
+  background: #060606;
+}
+
+.title,
+.subtitle {
+  color: white;
+}
+
+.navbar .navbar-item {
+  color: #e4e2ff;
+}
+
+.navbar .navbar-item.is-active {
+  color: #e4e2ff;
+  font-weight: 700;
+}
+
+.navbar .navbar-item:hover {
+  background: transparent;
+  color: white;
+}
+
+.navbar .navbar-item a {
+  margin-left: 1rem;
+  color: #e4e2ff;
+}
+
+.blog-posts {
+  min-height: 100vh;
+  background: #191b1f;
+  padding-top: 4rem;
+  padding-bottom: 10rem;
+}
+
+.blog-posts article {
+  padding: 1.5rem;
+}
+
+.blog-posts .post img {
+  border-radius: 6px;
+}
+
+.blog-posts .post .post-category {
+  color: #3b7adf;
+}
+
+.blog-posts .post .post-title {
+  font-size: 2.2rem;
+}
+
+.blog-posts .post .post-excerpt {
+  line-height: 1.5rem;
+  letter-spacing: .03rem;
+  font-size: 1.2rem;
+  font-family: 'IBM Plex Serif', serif;
+  color: #92a3ab;
+}
+
+.blog-posts .post .featured .featured-image img {
+  height: 380px;
+}
+@import "bulma";

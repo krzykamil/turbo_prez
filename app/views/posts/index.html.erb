@@ -1,29 +1,100 @@
-<p id="notice"><%= notice %></p>
+<section class="blog-posts">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-10 is-offset-1">
+        <div class="columns featured-post is-multiline">
+          <div class="column is-12 post">
+            <article class="columns featured">
+              <div class="column is-7 post-img ">
+                <img src="https://cdn.emk.dev/templates/featured-image.png" alt="">
+              </div>
+              <div class="column is-5 featured-content va">
+                <div>
+                  <h3 class="heading post-category">Category Name</h3>
+                  <h1 class="title post-title">Blog Posts Template</h1>
+                  <p class="post-excerpt">This template is based off of the official default blog template created by the fine folks over at <a href="https://ghost.io">Ghost</a>. If you are looking for a fully featured blog platform, I highly recommend checking them out!</p>
+                  <br>
+                  <a href="#" class="button is-primary">Read More</a>
+                </div>
 
-<h1>Posts</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Content</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @posts.each do |post| %>
-      <tr>
-        <td><%= post.title %></td>
-        <td><%= post.content %></td>
-        <td><%= link_to 'Show', post %></td>
-        <td><%= link_to 'Edit', edit_post_path(post) %></td>
-        <td><%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
-<br>
-
-<%= link_to 'New Post', new_post_path %>
+              </div>
+            </article>
+          </div>
+        </div>
+        <hr>
+        <div class="columns is-multiline">
+          <div class="column post is-6">
+            <article class="columns is-multiline">
+              <div class="column is-12 post-img">
+                <img src="https://cdn.emk.dev/templates/post-img.png" alt="Featured Image">
+              </div>
+              <div class="column is-12 featured-content ">
+                <h3 class="heading post-category">Category Name</h3>
+                <h1 class="title post-title">Slightly Longer Blog Post Title</h1>
+                <p class="post-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ratione harum eaque, animi nulla tempore quis, quam voluptatum.</p>
+                <br>
+                <a href="#" class="button is-primary">Read More</a>
+              </div>
+            </article>
+          </div>
+          <div class="column post is-6">
+            <article class="columns is-multiline">
+              <div class="column is-12 post-img">
+                <img src="https://cdn.emk.dev/templates/post-img.png" alt="Featured Image">
+              </div>
+              <div class="column is-12 featured-content ">
+                <h3 class="heading post-category">Category Name</h3>
+                <h1 class="title post-title">Slightly Longer Blog Post Title</h1>
+                <p class="post-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ratione harum eaque, animi nulla tempore quis, quam voluptatum.</p>
+                <br>
+                <a href="#" class="button is-primary">Read More</a>
+              </div>
+            </article>
+          </div>
+          <div class="column post is-4">
+            <article class="columns is-multiline">
+              <div class="column is-12 post-img">
+                <img src="https://cdn.emk.dev/templates/post-img.png" alt="Featured Image">
+              </div>
+              <div class="column is-12 featured-content ">
+                <h3 class="heading post-category">Category Name</h3>
+                <h1 class="title post-title">Slightly Longer Blog Post Title</h1>
+                <p class="post-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ratione harum eaque, animi nulla tempore quis, quam voluptatum.</p>
+                <br>
+                <a href="#" class="button is-primary">Read More</a>
+              </div>
+            </article>
+          </div>
+          <div class="column post is-4">
+            <article class="columns is-multiline">
+              <div class="column is-12 post-img">
+                <img src="https://cdn.emk.dev/templates/post-img.png" alt="Featured Image">
+              </div>
+              <div class="column is-12 featured-content ">
+                <h3 class="heading post-category">Category Name</h3>
+                <h1 class="title post-title">Slightly Longer Blog Post Title</h1>
+                <p class="post-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ratione harum eaque, animi nulla tempore quis, quam voluptatum.</p>
+                <br>
+                <a href="#" class="button is-primary">Read More</a>
+              </div>
+            </article>
+          </div>
+          <div class="column post is-4">
+            <article class="columns is-multiline">
+              <div class="column is-12 post-img">
+                <img src="https://cdn.emk.dev/templates/post-img.png" alt="Featured Image">
+              </div>
+              <div class="column is-12 featured-content ">
+                <h3 class="heading post-category">Category Name</h3>
+                <h1 class="title post-title">Slightly Longer Blog Post Title</h1>
+                <p class="post-excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ratione harum eaque, animi nulla tempore quis, quam voluptatum.</p>
+                <br>
+                <a href="#" class="button is-primary">Read More</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
