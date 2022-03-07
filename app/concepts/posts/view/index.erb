@@ -1,0 +1,16 @@
+<section class="blog-posts">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-10 is-offset-1">
+        <div class="columns featured-post is-multiline">
+          <%= cell(::Posts::Cell::Exposed, posts.first) %>
+        </div>
+        <hr>
+        <div class="columns is-multiline">
+          <%= cell(::Posts::Cell::TwoPosts, collection: [posts.second, posts.third]) %>
+          <%= cell(::Posts::Cell::ThreePosts, collection: posts[3..5]) %>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

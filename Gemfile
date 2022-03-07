@@ -16,6 +16,7 @@ gem "bulma-rails", "~> 0.9.3"
 # Main stuff
 gem 'turbo-rails'
 gem 'sidekiq'
+gem 'trailblazer-cells'
 gem "cells-rails"
 gem "cells-erb"
 
