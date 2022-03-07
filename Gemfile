@@ -13,6 +13,12 @@ gem 'jbuilder', '~> 2.7'
 gem 'faker'
 gem "bulma-rails", "~> 0.9.3"
 
+# Main stuff
+gem 'turbo-rails'
+gem 'sidekiq'
+gem "cells-rails"
+gem "cells-erb"
+
 gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
