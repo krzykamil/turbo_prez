@@ -12,3 +12,4 @@ User.create(email: "guy@email.com", name: "Some Guy")
     user: User.find_by_email('author@email.com')
   )
 end
+
