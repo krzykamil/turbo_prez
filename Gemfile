@@ -15,7 +15,9 @@ gem "bulma-rails", "~> 0.9.3"
 
 # Main stuff
 gem 'turbo-rails'
+# Something to have running in a different process that does not have controller, request context etc
 gem 'sidekiq'
+# TB cells architecture
 gem 'trailblazer-cells'
 gem "cells-rails"
 gem "cells-erb"
@@ -40,3 +42,6 @@ group :test do
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Use Redis for Action Cable
+gem 'redis', '~> 4.0'
