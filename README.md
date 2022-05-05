@@ -35,4 +35,4 @@ open up posts index page in the browser and see the page getting updates live, f
 
 ### Presentation
 
-https://slides.com/d/kITDX1c/live
+https://slides.com/krzysztofkamilpiotrowski/code/fullscreen
